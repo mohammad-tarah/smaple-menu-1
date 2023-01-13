@@ -6,3 +6,16 @@
 body{
     background-color: #fff;
 }
+.nav-link:hover{
+    color: rgb(200, 0, 0);
+}
+.dropdown-item{
+    font-size: 14px;
+}
+.dropdown-item:hover{
+    color: rgb(200, 0, 0);
+}
+.img-thumbnail{
+    width: 85px;
+    height: 52px;
+}

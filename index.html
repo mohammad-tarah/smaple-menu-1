@@ -5,52 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
    <div class="cntainer-fluid">
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top  " data-bs-theme="dark" >
-      
-      <img src="pics/natzies edited.jpg" alt="" class="img-thumbnail ms-4 navbar-brand">
+     <a href=""> <img src="pics/natzies edited.jpg" alt="" class="img-thumbnail ms-4 navbar-brand lead"></a>
         <button class="navbar-toggler" data-bs-target="#num" type="button" data-bs-toggle="collapse" data-bs-theme="dark">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse " id="num" >
-          <ul class="nav nav-tabs me-auto shadow-lg" style="font-size:15px;" >
+          <ul class="nav nav-tabs me-auto shadow justify-content-eend" style="font-size:15px;" >
             <li class="nav-item">
-              <em><a class="nav-link active link-light" href="" ><i class="bi bi-houses"></i>Home</a></em>
+              <em><a class="nav-link active text-warning border border-bottom-0 border-light border-opacity-75" href="index.html" ></i>Home</a></em>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-info " href=""><i class="bi bi-door-open"></i>Login</a>
+              <a class="nav-link  " href="">Login</a>
             </li>
             <li class="nav-item">
-              <em><a class="nav-link link-info" href=""><i class="bi bi-file-earmark-medical-fill"></i>register</a></em>
+              <em><a class="nav-link "href="">register</a></em>
             </li>
             <li class="nav-item">
-              <del><em><a class="nav-link link-secondary disabled"  href=""><i class="bi bi-dash-circle"></i>Profile</a></em></del>
+              <del><em><a class="nav-link  disabled"  href=""></i>Profile</a></em></del>
             </li> 
-            <li class="dropend">
-              <a href="" class="nav-link dropdown-toggle link-info"data-bs-toggle="dropdown"data-bs-auto-close="inside"><i class="bi bi-download"></i>sample menu </a>
+            <li class="dropdown">
+              <a href="" class="nav-link dropdown-toggle "data-bs-toggle="dropdown"data-bs-auto-close="inside"></i>sample menu </a>
               <ul class="dropdown-menu " style="font-size: 14px;">
                 <li>
-                 <em><h5 class="dropdown-item-text lead" style="font-size: 17px;"  >welcome</h5></em>
+                 <em><Display5  class="dropdown-item-text lead" style="font-size: 17px;"  >welcome</Display5></em>
                 </li>
                 <li><hr class="dropdown-devider"></li>
                 <li>
-                  <em><strong><a href="" class="dropdown-item">Horror</a></strong></em>
+                  <em><strong><a href="" class="dropdown-item"> <i class="bi bi-film me-2"></i>Horror </a></strong></em>
                 </li>
-                <li><hr class="dropdown-devider"></li>
+                <!-- <li><hr class="dropdown-devider"></li> -->
                 <li>
-                  <em><strong><a href="" class="dropdown-item">Comedy</a></strong></em>
+                  <em><strong><a href="" class="dropdown-item"> <i class="bi bi-film me-2"></i>Comedy</a></strong></em>
                 </li>
-                <li><hr class="dropdown-devider"></li>
+                <!-- <li><hr class="dropdown-devider"></li> -->
                 <li>
-                  <em><strong><a href="" class="dropdown-item">Action</a></strong></em>
+                  <em><strong><a href="" class="dropdown-item"><i class="bi bi-film me-2"></i>Action</a></strong></em>
                 </li>
               </ul>
             </li>
           </ul>
-          <form action="" class="d-flex shadow-lg">
+          <form action="" class="d-flex shadow  mt-3">
             <button class="btn btn-outline-warning" style="font-size: 14px;">Search</button>
             <input type="search" class="form-control ms-2" placeholder="search...." >
           </form>     
